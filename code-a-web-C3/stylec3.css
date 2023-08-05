@@ -91,3 +91,27 @@ li:not(:nth-child(1)) {
 li:nth-child(2n + 4) {
   color: greenyellow;
 }
+/* h3 + .title1 {
+  color: green;
+}
+h3 ~ .title2 {
+  color: red;
+} */
+a[href^="https"] {
+  color: blueviolet;
+}
+a[href$="vn"] {
+  color: cyan;
+}
+a[href*="abc"] {
+  color: plum;
+}
+div[data-title="value"] {
+  color: pink;
+}
+p::first-letter {
+  color: yellowgreen;
+}
+p::first-line {
+  font-size: 4rem;
+}
