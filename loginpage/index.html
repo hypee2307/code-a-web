@@ -58,27 +58,62 @@
             <span class="signup-social_text">Sign up with Facebook</span>
           </div>
         </div>
-        <form class="signup-form">
-          <div class="signup-form_group">
-            <label for="name" class="signup-form_label">Name</label>
-            <input type="text" class="signup-form_input" id="name" />
+        <form class="signup-form" autocomplete="off">
+          <div class="signup-form_row">
+            <div class="signup-form_group">
+              <label for="name" class="signup-form_label"
+                >Name (5-15 characters)</label
+              >
+              <div class="signup-form_validate">
+                <input
+                  type="text"
+                  class="signup-form_input"
+                  id="name"
+                  required
+                  placeholder="Name"
+                  minlength="5"
+                  maxlength="15"
+                />
+                <div class="signup-form_check">
+                  <i class="fa fa-check"></i>
+                </div>
+              </div>
+            </div>
+            <div class="signup-form_group">
+              <label for="email" class="signup-form_label">Email</label>
+              <input
+                type="text"
+                class="signup-form_input"
+                id="email"
+                required
+                placeholder="Email"
+              />
+            </div>
           </div>
           <div class="signup-form_group">
-            <label for="email" class="signup-form_label">Email</label>
-            <input type="text" class="signup-form_input" id="email" />
-          </div>
-          <div class="signup-form_group">
-            <label for="password" class="signup-form_label">Password </label>
-            <input type="password" class="signup-form_input" id="password" />
+            <label for="password" class="signup-form_label"
+              >Password (5-15 characters)</label
+            >
+            <input
+              type="password"
+              class="signup-form_input"
+              id="password"
+              required
+              placeholder="Password"
+              minlength="5"
+              maxlength="15"
+            />
           </div>
           <div class="signup-form_term">
-            <input type="checkbox" name="" id="" />
-            <label for="">I have read and agree with term</label>
+            <input type="checkbox" name="" id="term" />
+            <label for="term">I have read and agree with term</label>
           </div>
-          <button class="signup-form_submit">
+          <button class="signup-form_submit" type="submit">
             <i class="fa fa-long-arrow-right"></i>
           </button>
-          <p>Already sign in? <a href="#">Sign in</a></p>
+          <p class="signup_already">
+            Already have an account? <a href="#">Sign in</a>
+          </p>
         </form>
       </div>
       <div class="signup_image">
