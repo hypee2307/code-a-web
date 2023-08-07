@@ -19,109 +19,38 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- <div class="dropdown">
-      <div class="dropdown__select">
-        <i class="fa fa-file dropdown__icon"></i>
-        <span class="dropdown__text">File Type</span>
-        <i class="fa fa-caret-down dropdown__caret"></i>
-      </div>
-      <ul class="dropdown__list">
-        <li class="dropdown__item">
-          <i class="fa fa-file dropdown__icon"></i>
-          <span class="dropdown__text">Markup HTML</span>
-        </li>
-        <li class="dropdown__item">
-          <i class="fa fa-file dropdown__icon"></i>
-          <span class="dropdown__text">Markup HTML</span>
-        </li>
-        <li class="dropdown__item">
-          <i class="fa fa-file dropdown__icon"></i>
-          <span class="dropdown__text">Markup HTML</span>
-        </li>
-        <li class="dropdown__item">
-          <i class="fa fa-file dropdown__icon"></i>
-          <span class="dropdown__text">Markup HTML</span>
-        </li>
-      </ul>
-    </div> -->
-    <div class="signup">
-      <div class="signup_content">
-        <h1 class="signup_heading">Sign Up</h1>
-        <h2 class="signup_caption">Sign up with</h2>
-        <div class="signup-social">
-          <div class="signup-social_item">
-            <i class="fab fa-google signup-social_icon"></i>
-            <span class="signup-social_text">Sign up with Google</span>
-          </div>
-          <div class="signup-social_item">
-            <i class="fab fa-facebook signup-social_icon"></i>
-            <span class="signup-social_text">Sign up with Facebook</span>
-          </div>
+    <div class="container">
+      <form class="form" id="login">
+        <h1 class="form_title">Login</h1>
+        <div class="form-message form-message_error">
+          Incorrect Usernam/Password.
         </div>
-        <form class="signup-form" autocomplete="off">
-          <div class="signup-form_row">
-            <div class="signup-form_group">
-              <label for="name" class="signup-form_label"
-                >Name (5-15 characters)</label
-              >
-              <div class="signup-form_validate">
-                <input
-                  type="text"
-                  class="signup-form_input"
-                  id="name"
-                  required
-                  placeholder="Name"
-                  minlength="5"
-                  maxlength="15"
-                />
-                <div class="signup-form_check">
-                  <i class="fa fa-check"></i>
-                </div>
-              </div>
-            </div>
-            <div class="signup-form_group">
-              <label for="email" class="signup-form_label">Email</label>
-              <input
-                type="text"
-                class="signup-form_input"
-                id="email"
-                required
-                placeholder="Email"
-              />
-            </div>
-          </div>
-          <div class="signup-form_group">
-            <label for="password" class="signup-form_label"
-              >Password (5-15 characters)</label
-            >
-            <input
-              type="password"
-              class="signup-form_input"
-              id="password"
-              required
-              placeholder="Password"
-              minlength="5"
-              maxlength="15"
-            />
-          </div>
-          <div class="signup-form_term">
-            <input type="checkbox" name="" id="term" />
-            <label for="term">I have read and agree with term</label>
-          </div>
-          <button class="signup-form_submit" type="submit">
-            <i class="fa fa-long-arrow-right"></i>
-          </button>
-          <p class="signup_already">
-            Already have an account? <a href="#">Sign in</a>
-          </p>
-        </form>
-      </div>
-      <div class="signup_image">
-        <img
-          src="https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHN1cnZleXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
-        />
-      </div>
+        <div class="form-input_group">
+          <input
+            type="text"
+            class="form-input"
+            autofocus
+            placeholder="Username"
+          />
+          <div class="form-input_error_message">This is an error message</div>
+        </div>
+        <div class="form-input_group">
+          <input
+            type="text"
+            class="form-input"
+            autofocus
+            placeholder="Password"
+          />
+          <div class="form-input_error_message"></div>
+        </div>
+        <button class="form-button" type="submit">Submit</button>
+        <p class="form-text">
+          <a class="form-link" href="./" id="linkSignup"
+            >Don't have an account? Sign up</a
+          >
+        </p>
+      </form>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
