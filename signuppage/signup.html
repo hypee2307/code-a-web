@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./signup.css" />
   </head>
   <body>
     <div class="signup">
@@ -49,9 +49,9 @@
                   minlength="5"
                   maxlength="15"
                 />
-                <div class="signup-form_check">
+                <!-- <div class="signup-form_check">
                   <i class="fa fa-check"></i>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="signup-form_group">
@@ -80,14 +80,14 @@
             />
           </div>
           <div class="signup-form_term">
-            <input type="checkbox" name="" id="term" />
+            <input type="checkbox" name="" id="term" required />
             <label for="term">I have read and agree with term</label>
           </div>
-          <button class="signup-form_submit" type="submit">
+          <button class="signup-form_submit" type="submit" id="button">
             <i class="fa fa-long-arrow-right"></i>
           </button>
           <p class="signup_already">
-            Already have an account? <a href="#">Sign in</a>
+            Already have an account? <a href="./login.html">Sign in</a>
           </p>
         </form>
       </div>
@@ -98,6 +98,6 @@
         />
       </div>
     </div>
-    <script src="./app.js"></script>
+    <script src="./signup.js"></script>
   </body>
 </html>

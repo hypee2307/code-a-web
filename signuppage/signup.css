@@ -48,7 +48,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.signup_content, .signup_image {
+.signup_content,
+.signup_image {
   width: calc(50% - 4rem);
 }
 .signup_heading {
