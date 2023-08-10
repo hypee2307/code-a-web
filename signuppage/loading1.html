@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading</title>
+    <link rel="stylesheet" href="loading1.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="text">
+      <p>Please wait for a few seconds</p>
+    </div>
+    <div class="circles">
+      <div class="circle-item"></div>
+      <div class="circle-item"></div>
+    </div>
+    <script>
+      function change() {
+        window.location.href = "question.html";
+      }
+      setTimeout(change, 5000);
+    </script>
+  </body>
+</html>

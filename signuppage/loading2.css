@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@400;500&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+.circles {
+  text-align: center;
+  margin: 5rem;
+  animation: loading 1s infinite;
+}
+body {
+  min-height: 100vh;
+  background: url("https://plus.unsplash.com/premium_photo-1673029926917-40a9e3336b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(1, 19, 19);
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 2rem;
+}
+@keyframes loading {
+  50% {
+    transform: rotate(200deg);
+  }
+  75% {
+    transform: rotate(160deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.circle-item {
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid rgb(15, 235, 235);
+  display: inline-block;
+  border-radius: 3rem;
+  margin: 0 0.5rem;
+}
+.circle-item:first-child {
+  border-color: rgb(184, 13, 218);
+}

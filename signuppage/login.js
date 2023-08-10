@@ -22,7 +22,7 @@ btnLogin.addEventListener("click", (e) => {
       user.email === inputEmail.value
     ) {
       alert("Đăng Nhập Thành Công");
-      window.location.href = "final.html";
+      window.location.href = "loading1.html";
     } else {
       alert("Đăng Nhập Thất Bại");
     }
