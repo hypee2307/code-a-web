@@ -27,8 +27,8 @@ const quizData = [
     question: "Đâu là câu lệnh chỉnh khoảng cách các kí tự?",
     a: "font-style: italic;",
     b: "letter-spacing: 1px;",
-    c: "word-spacing: 4px;",
-    d: "font-size: 1.6rem;",
+    c: "1994",
+    d: "none of the above",
     correct: "b",
   },
 ];
