@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "Command to setting the background color?",
+    question: "Command to adjust the background color?",
     a: "Background-position: center center;",
     b: "Background-repeat: no-repeat;",
     c: "Background-size: cover; ",
@@ -8,15 +8,15 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "Command to setting color with RGB Style?",
+    question: "Command to adjust color with RGB Style?",
     a: "Color: red;",
     b: "Color: #ffa400;",
     c: "Color: (0,0,0);",
-    d: "None of the above",
+    d: "Cả 3 đều sai",
     correct: "c",
   },
   {
-    question: "Command to create circle border?",
+    question: "Đâu là câu lệnh tạo viền tròn?",
     a: "Border-radius: 50%",
     b: "border-width: 0.1rem;",
     c: "Border-radius: 0.5rem ",
@@ -24,7 +24,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "Command to setting distance of letter?",
+    question: "Đâu là câu lệnh chỉnh khoảng cách các kí tự?",
     a: "font-style: italic;",
     b: "letter-spacing: 1px;",
     c: "word-spacing: 4px;",
